@@ -1,0 +1,24 @@
+{
+  "name": "ble_test1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "easy-bluetooth-classic": "^1.0.4",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-cli": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
